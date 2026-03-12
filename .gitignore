@@ -1,7 +1,6 @@
 __pycache__/
 *.pyc
 .env
-config.ini
-*.log
-checkpoints/
-delta/
+.DS_Store
+.ipynb_checkpoints
+data/
