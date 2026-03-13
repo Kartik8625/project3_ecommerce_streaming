@@ -49,7 +49,7 @@ PAYMENT_METHODS = ['UPI', 'Credit Card', 'Debit Card', 'Net Banking', 'Cash on D
 ORDER_STATUSES  = ['placed', 'confirmed', 'shipped', 'out_for_delivery', 'delivered', 'cancelled', 'returned']
 STATUS_WEIGHTS  = [30, 25, 20, 10, 8, 5, 2]
 
-order_counter = 1
+order_counter = int(time.time())
 
 def maybe_null(value, null_chance=0.05):
     """Randomly return None instead of value — simulates missing data"""
